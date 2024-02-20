@@ -34,7 +34,10 @@ public class Kunstgegenstand
         _titel = titel;
         _verkaufbar = verkaufbar;
     }
-
+    /// <summary>
+    /// Titel des Kunstgegenstandes
+    /// </summary>
+    /// <returns>Der Name des Gegenstandes</returns>
     public string GetTitel() 
     {
         return _titel;
