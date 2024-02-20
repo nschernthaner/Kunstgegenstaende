@@ -28,4 +28,9 @@ public class Sammlung
             return false;
         }
     }
+
+    public int GetAnzahl()
+    {
+        return _kunstgegenstaende.Count;
+    }
 }
