@@ -8,4 +8,9 @@ namespace Kunstgegenstände;
 
 public class Kunstgegenstand
 {
+    string _titel;
+
+    bool _verkaufbar = false;
+
+    double _preis = 0;
 }
