@@ -5,4 +5,4 @@ Kunstgegenstand tisch = new("Tisch", true);
 tisch.SetPreis(50);
 Kunstgegenstand ball = new("Ball");
 Kunstgegenstand tischGroß = new("Tisch groß", true);
-tisch.SetPreis(150);
+tischGroß.SetPreis(150);
