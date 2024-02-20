@@ -4,9 +4,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Kunstgegenstände
+namespace Kunstgegenstände;
+
+public class Sammlung
 {
-    internal class Sammlung
+    List<Kunstgegenstand> _kunstgegenstaende;
+
+    public Sammlung()
     {
+        _kunstgegenstaende = new List<Kunstgegenstand>();
+    }
+
+
+    public bool Add(Kunstgegenstand k)
+    {
+        if (k.GetPreis() >= 100)
+        {
+            _kunstgegenstaende.Add(k);
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 }
