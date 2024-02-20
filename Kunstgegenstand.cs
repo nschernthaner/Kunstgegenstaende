@@ -58,5 +58,21 @@ public class Kunstgegenstand
     {
         _preis = preis;
     }
+    /// <summary>
+    /// Liest den Status aus
+    /// </summary>
+    /// <returns>true, wenn verkaufbar</returns>
+    public bool GetVerkaufbar() 
+    {
+        return _verkaufbar;
+    }
+    /// <summary>
+    /// Legt den Status fest
+    /// </summary>
+    /// <param name="verkaufbar">true falls verkaufbar</param>
+    public void SetVerkaufbar(bool verkaufbar)
+    {
+        _verkaufbar= verkaufbar;
+    }
 
 }
